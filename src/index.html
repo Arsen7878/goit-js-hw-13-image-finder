@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW-13</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images..."
+          class="search-form__input"
+        />
+        <button type="submit" class="button" data-search>Search</button>
+      </form>
+
+      <ul class="gallery">
+        <!-- Список <li> с карточками изображений -->
+      </ul>
+      <button type="button" class="button" data-action="load-more">Load more</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
